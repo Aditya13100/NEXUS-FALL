@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+attack.log
+*.log.*
+
+# Config
+.env
+*.env
+config.local.yaml
+config.local.json
+
+# Data
+data/
+*.pcap
+*.pcapng
+*.db
+*.sqlite
+
+# Proxy lists
+proxies.txt
+proxy_list.txt
+*.proxy
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Output
+output/
+reports/
+*.html
+*.xml
+
+# Misc
+*.bak
+*.backup
+*.old
+Thumbs.db
